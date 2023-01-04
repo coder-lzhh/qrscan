@@ -46,32 +46,33 @@
                     android:background="@mipmap/ic_back" />
         </LinearLayout>
 
-       <LinearLayout 
+      <LinearLayout 
+          android:paddingRight="50dp"
           android:layout_width="0dp"
           android:layout_weight="1"
           android:layout_height="wrap_content"
+          android:gravity="center"
           android:layout_gravity="center">
           <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:textSize='20dp'
-            android:text="111" />
+            android:text="检票" />
             </LinearLayout>
         <!-- <LinearLayout
-                android:id="@+id/choose_photo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
+            android:id="@+id/choose_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
 
             <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="right"
-                    android:padding="14dp"
-                    android:src="@mipmap/ic_back" />
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:padding="14dp"
+                android:src="@mipmap/ic_back" />
         </LinearLayout> -->
     </LinearLayout>
 
